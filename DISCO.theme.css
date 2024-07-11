@@ -22,7 +22,7 @@
     --members-width: 240px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+    --background-image: url(https://LaBriquez.github.io/images/sapphire.jpg);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -72,7 +72,7 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+    --home-icon: url(https://LaBriquez.github.io/icons/discord.svg);
     --home-position: center;
     --home-size: 40px;
     --popout-color: rgba(0, 0, 0, 0.8);
@@ -541,7 +541,7 @@ textarea,
 }
 
 .typeWindows_a934d8>.wordmark_a934d8:before {
-    content: "ClearVision";
+    content: "LaBriquez";
     color: rgba(255, 255, 255, .7);
     font-size: 14px;
     text-shadow: 0 0 3px #000
@@ -4512,7 +4512,7 @@ textarea::-webkit-scrollbar {
     height: 30px;
     box-sizing: border-box;
     padding-left: 30px;
-    background-image: url(https://clearvision.github.io/icons/file.svg);
+    background-image: url(https://LaBriquez.github.io/icons/file.svg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -4520,42 +4520,42 @@ textarea::-webkit-scrollbar {
 }
 
 :not(.embedWrapper_b558d0)>[title=unknown].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_upload.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_upload.svg)
 }
 
 [title=document].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_document.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_document.svg)
 }
 
 [title=archive].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_archive.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_archive.svg)
 }
 
 [title=code].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_code.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_code.svg)
 }
 
 [title=webcode].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_webcode.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_webcode.svg)
 }
 
 [title=ai].icon_a4623d,
 [title=ps].icon_a4623d,
 [title=photoshop].icon_a4623d,
 [title=sketch].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_image.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_image.svg)
 }
 
 [title=ae].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_video.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_video.svg)
 }
 
 [title=spreadsheet].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_table.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_table.svg)
 }
 
 [title=acrobat].icon_a4623d {
-    background-image: url(https://clearvision.github.io/icons/file_pdf.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_pdf.svg)
 }
 
 .fileNameLink_a4623d {
@@ -5759,7 +5759,7 @@ code {
     content: "";
     width: 36px;
     height: 36px;
-    background: url(https://clearvision.github.io/icons/file_music.svg) center/100% no-repeat;
+    background: url(https://LaBriquez.github.io/icons/file_music.svg) center/100% no-repeat;
     opacity: .5
 }
 
@@ -6777,7 +6777,7 @@ code {
 }
 
 .connectedAccountVerifiedIcon_f3eb60 {
-    background: url(https://clearvision.github.io/icons/verified.svg) center/18px no-repeat;
+    background: url(https://LaBriquez.github.io/icons/verified.svg) center/18px no-repeat;
     opacity: .5;
     z-index: 1
 }
@@ -6791,7 +6791,7 @@ code {
 }
 
 .connectedAccountOpenIcon_f3eb60 {
-    background: url(https://clearvision.github.io/icons/popout.svg) center/18px no-repeat;
+    background: url(https://LaBriquez.github.io/icons/popout.svg) center/18px no-repeat;
     opacity: .3;
     transition: all .15s ease-in-out;
     transform: none
@@ -9200,7 +9200,7 @@ code {
 }
 
 .attendeeCTA_ca5ce6:after {
-    content: "ClearVision easter egg, please visit our server for a headpat :)";
+    content: "LaBriquez easter egg, please visit our server for a headpat :)";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -9232,223 +9232,223 @@ code {
 }
 
 .sidebar_c25c6d [aria-controls=my-account-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/person.svg)
+    background-image: url(https://LaBriquez.github.io/icons/person.svg)
 }
 
 .sidebar_c25c6d [aria-controls=profile-customization-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/user_profile.svg)
+    background-image: url(https://LaBriquez.github.io/icons/user_profile.svg)
 }
 
 .sidebar_c25c6d [aria-controls="privacy-&-safety-tab"].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/security.svg)
+    background-image: url(https://LaBriquez.github.io/icons/security.svg)
 }
 
 .sidebar_c25c6d [aria-controls=family-center-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/family.svg)
+    background-image: url(https://LaBriquez.github.io/icons/family.svg)
 }
 
 .sidebar_c25c6d [aria-controls=authorized-apps-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/apps.svg)
+    background-image: url(https://LaBriquez.github.io/icons/apps.svg)
 }
 
 .sidebar_c25c6d [aria-controls=sessions-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/devices.svg)
+    background-image: url(https://LaBriquez.github.io/icons/devices.svg)
 }
 
 .sidebar_c25c6d [aria-controls=connections-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/link.svg)
+    background-image: url(https://LaBriquez.github.io/icons/link.svg)
 }
 
 .sidebar_c25c6d [aria-controls=settings-clips-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/clips.svg)
+    background-image: url(https://LaBriquez.github.io/icons/clips.svg)
 }
 
 .sidebar_c25c6d [aria-controls=friend-requests-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/person_add.svg)
+    background-image: url(https://LaBriquez.github.io/icons/person_add.svg)
 }
 
 .sidebar_c25c6d [aria-controls=discord-nitro-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/nitro.svg)
+    background-image: url(https://LaBriquez.github.io/icons/nitro.svg)
 }
 
 .sidebar_c25c6d [aria-controls=nitro-server-boost-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/server_boost.svg)
+    background-image: url(https://LaBriquez.github.io/icons/server_boost.svg)
 }
 
 .sidebar_c25c6d [aria-controls=subscriptions-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/subscriptions.svg)
+    background-image: url(https://LaBriquez.github.io/icons/subscriptions.svg)
 }
 
 .sidebar_c25c6d [aria-controls=library-inventory-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/gift.svg)
+    background-image: url(https://LaBriquez.github.io/icons/gift.svg)
 }
 
 .sidebar_c25c6d [aria-controls=billing-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/payment.svg)
+    background-image: url(https://LaBriquez.github.io/icons/payment.svg)
 }
 
 .sidebar_c25c6d [aria-controls=appearance-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/camera.svg)
+    background-image: url(https://LaBriquez.github.io/icons/camera.svg)
 }
 
 .sidebar_c25c6d [aria-controls=accessibility-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/accessibility.svg)
+    background-image: url(https://LaBriquez.github.io/icons/accessibility.svg)
 }
 
 .sidebar_c25c6d [aria-controls="voice-&-video-tab"].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/mic.svg)
+    background-image: url(https://LaBriquez.github.io/icons/mic.svg)
 }
 
 .sidebar_c25c6d [aria-controls="text-&-images-tab"].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/chat.svg)
+    background-image: url(https://LaBriquez.github.io/icons/chat.svg)
 }
 
 .sidebar_c25c6d [aria-controls=notifications-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/notifications.svg)
+    background-image: url(https://LaBriquez.github.io/icons/notifications.svg)
 }
 
 .sidebar_c25c6d [aria-controls=keybinds-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/keyboard.svg)
+    background-image: url(https://LaBriquez.github.io/icons/keyboard.svg)
 }
 
 .sidebar_c25c6d [aria-controls=language-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/language.svg)
+    background-image: url(https://LaBriquez.github.io/icons/language.svg)
 }
 
 .sidebar_c25c6d [aria-controls=windows-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/windows.svg)
+    background-image: url(https://LaBriquez.github.io/icons/windows.svg)
 }
 
 .sidebar_c25c6d [aria-controls=linux-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/linux.svg)
+    background-image: url(https://LaBriquez.github.io/icons/linux.svg)
 }
 
 .sidebar_c25c6d [aria-controls=streamer-mode-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/videocam.svg)
+    background-image: url(https://LaBriquez.github.io/icons/videocam.svg)
 }
 
 .sidebar_c25c6d [aria-controls=advanced-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/bug.svg)
+    background-image: url(https://LaBriquez.github.io/icons/bug.svg)
 }
 
 .sidebar_c25c6d [aria-controls=activity-privacy-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/controller-off.svg)
+    background-image: url(https://LaBriquez.github.io/icons/controller-off.svg)
 }
 
 .sidebar_c25c6d [aria-controls=game-activity-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/games.svg)
+    background-image: url(https://LaBriquez.github.io/icons/games.svg)
 }
 
 .sidebar_c25c6d [aria-controls=overlay-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/aspect_ratio.svg)
+    background-image: url(https://LaBriquez.github.io/icons/aspect_ratio.svg)
 }
 
 .sidebar_c25c6d [aria-controls=changelog-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/history.svg)
+    background-image: url(https://LaBriquez.github.io/icons/history.svg)
 }
 
 .sidebar_c25c6d [aria-controls=hypesquad-online-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/hypesquad.svg)
+    background-image: url(https://LaBriquez.github.io/icons/hypesquad.svg)
 }
 
 .sidebar_c25c6d [aria-controls=overview-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/info.svg)
+    background-image: url(https://LaBriquez.github.io/icons/info.svg)
 }
 
 .sidebar_c25c6d [aria-controls=roles-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/flag.svg)
+    background-image: url(https://LaBriquez.github.io/icons/flag.svg)
 }
 
 .sidebar_c25c6d [aria-controls=emoji-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/emoji.svg)
+    background-image: url(https://LaBriquez.github.io/icons/emoji.svg)
 }
 
 .sidebar_c25c6d [aria-controls=stickers-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/sticker.svg)
+    background-image: url(https://LaBriquez.github.io/icons/sticker.svg)
 }
 
 .sidebar_c25c6d [aria-controls=soundboard-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/music.svg)
+    background-image: url(https://LaBriquez.github.io/icons/music.svg)
 }
 
 .sidebar_c25c6d [aria-controls=widget-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/widgets.svg)
+    background-image: url(https://LaBriquez.github.io/icons/widgets.svg)
 }
 
 .sidebar_c25c6d [aria-controls=guild_templates-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/website.svg)
+    background-image: url(https://LaBriquez.github.io/icons/website.svg)
 }
 
 .sidebar_c25c6d [aria-controls=vanity_url-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/link_plus.svg)
+    background-image: url(https://LaBriquez.github.io/icons/link_plus.svg)
 }
 
 .sidebar_c25c6d [aria-controls=integrations-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/puzzle.svg)
+    background-image: url(https://LaBriquez.github.io/icons/puzzle.svg)
 }
 
 .sidebar_c25c6d [aria-controls=moderation-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/security.svg)
+    background-image: url(https://LaBriquez.github.io/icons/security.svg)
 }
 
 .sidebar_c25c6d [aria-controls=safety-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/security.svg)
+    background-image: url(https://LaBriquez.github.io/icons/security.svg)
 }
 
 .sidebar_c25c6d [aria-controls=guild_automod-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/robot.svg)
+    background-image: url(https://LaBriquez.github.io/icons/robot.svg)
 }
 
 .sidebar_c25c6d [aria-controls=audit_log-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/list.svg)
+    background-image: url(https://LaBriquez.github.io/icons/list.svg)
 }
 
 .sidebar_c25c6d [aria-controls=bans-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/hammer.svg)
+    background-image: url(https://LaBriquez.github.io/icons/hammer.svg)
 }
 
 .sidebar_c25c6d [aria-controls=community-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/people.svg)
+    background-image: url(https://LaBriquez.github.io/icons/people.svg)
 }
 
 .sidebar_c25c6d [aria-controls=onboarding-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/rocket_launch.svg)
+    background-image: url(https://LaBriquez.github.io/icons/rocket_launch.svg)
 }
 
 .sidebar_c25c6d [aria-controls=analytics-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/insights.svg)
+    background-image: url(https://LaBriquez.github.io/icons/insights.svg)
 }
 
 .sidebar_c25c6d [aria-controls=partner-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/handshake.svg)
+    background-image: url(https://LaBriquez.github.io/icons/handshake.svg)
 }
 
 .sidebar_c25c6d [aria-controls=discovery-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/explore.svg)
+    background-image: url(https://LaBriquez.github.io/icons/explore.svg)
 }
 
 .sidebar_c25c6d [aria-controls=community_welcome-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/waving_hand.svg)
+    background-image: url(https://LaBriquez.github.io/icons/waving_hand.svg)
 }
 
 .sidebar_c25c6d [aria-controls=guild_premium-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/server_boost.svg)
+    background-image: url(https://LaBriquez.github.io/icons/server_boost.svg)
 }
 
 .sidebar_c25c6d [aria-controls=role_subscriptions-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/subscriptions.svg)
+    background-image: url(https://LaBriquez.github.io/icons/subscriptions.svg)
 }
 
 .sidebar_c25c6d [aria-controls=members-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/group.svg)
+    background-image: url(https://LaBriquez.github.io/icons/group.svg)
 }
 
 .sidebar_c25c6d [aria-controls=instant_invites-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/person_add.svg)
+    background-image: url(https://LaBriquez.github.io/icons/person_add.svg)
 }
 
 .sidebar_c25c6d [aria-controls=permissions-tab].item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/rule.svg)
+    background-image: url(https://LaBriquez.github.io/icons/rule.svg)
 }
 
 .educationUpsell_b5926e {
@@ -11041,27 +11041,27 @@ code {
 }
 
 .sidebar_c25c6d .vc-settings.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/vencord.svg)
+    background-image: url(https://LaBriquez.github.io/icons/vencord.svg)
 }
 
 .sidebar_c25c6d .vc-plugins.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/puzzle.svg)
+    background-image: url(https://LaBriquez.github.io/icons/puzzle.svg)
 }
 
 .sidebar_c25c6d .vc-themes.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/palette.svg)
+    background-image: url(https://LaBriquez.github.io/icons/palette.svg)
 }
 
 .sidebar_c25c6d .vc-updater.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/sync.svg)
+    background-image: url(https://LaBriquez.github.io/icons/sync.svg)
 }
 
 .sidebar_c25c6d .vc-cloud.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/cloud_sync.svg)
+    background-image: url(https://LaBriquez.github.io/icons/cloud_sync.svg)
 }
 
 .sidebar_c25c6d .vc-backup-restore.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/file_archive.svg)
+    background-image: url(https://LaBriquez.github.io/icons/file_archive.svg)
 }
 
 .replugged-addon-card {
@@ -11180,23 +11180,23 @@ code {
 }
 
 .sidebar_c25c6d .bd-settings-tab.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/betterdiscord.svg)
+    background-image: url(https://LaBriquez.github.io/icons/betterdiscord.svg)
 }
 
 .sidebar_c25c6d .bd-updates-tab.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/sync.svg)
+    background-image: url(https://LaBriquez.github.io/icons/sync.svg)
 }
 
 .sidebar_c25c6d .bd-customcss-tab.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/code_braces.svg)
+    background-image: url(https://LaBriquez.github.io/icons/code_braces.svg)
 }
 
 .sidebar_c25c6d .bd-plugins-tab.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/puzzle.svg)
+    background-image: url(https://LaBriquez.github.io/icons/puzzle.svg)
 }
 
 .sidebar_c25c6d .bd-themes-tab.item_a0:before {
-    background-image: url(https://clearvision.github.io/icons/palette.svg)
+    background-image: url(https://LaBriquez.github.io/icons/palette.svg)
 }
 
 .bd-modal-root {
