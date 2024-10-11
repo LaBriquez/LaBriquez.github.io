@@ -52,7 +52,7 @@ let questions = [
     [[null, "Fi"], "Vous arrive-t-il de ressentir fortement ce qui est juste ou injuste en fonction de vos propres standards ?"],
     [[null, "Fi"], "Trouvez-vous important de rester fidèle à vous-même, même si cela entre en conflit avec l'avis des autres ?"],
     [[null, "Fi"], "Vous appuyez-vous souvent sur vos convictions personnelles pour évaluer une situation ?"],
-    [[null, "Fi"], "Avez-vous une forte préférence pour préserver votre intégrité personnelle dans vos actions quotidiennes ?"],
+    [[null, "Fi"], "Avez-vous une forte préférence pour préserver votre intégrité emotionel dans vos actions quotidiennes ?"],
     [[null, "Fi"], "Trouvez-vous que vous ressentez intensément vos émotions, mais que vous les gardez souvent pour vous-même ?"],
     [[null, "Fi"], "Vous arrive-t-il de prendre vos distances face à des situations qui contredisent vos valeurs personnelles ?"],
 ]
