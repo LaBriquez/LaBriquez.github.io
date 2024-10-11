@@ -42,6 +42,7 @@ onload = function() {
         <input type="radio" value="${i},3" name="q${i}"/>
         <input type="radio" value="${i},4" name="q${i}"/>
         <input type="radio" value="${i},5" name="q${i}"/>
+        <input type="radio" value="${i},6" name="q${i}"/>
         </div>`).join("") + "</br><button>send</button>";
     
     document.querySelector("button").addEventListener("click", function() {
@@ -55,7 +56,7 @@ onload = function() {
             const [q, ratio] = checked.value.split(",");
 
             if (questions[q][0][0]) {
-                results[questions[q][0][0]] += 5.0 - Number(ratio);
+                results[questions[q][0][0]] += 6.0 - Number(ratio);
             }
 
             results[questions[q][0][1]] += Number(ratio);
