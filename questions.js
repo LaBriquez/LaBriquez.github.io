@@ -12,7 +12,7 @@ let questions = [
     [[null, "Si"], "Préférez-vous vous référer à ce que vous connaissez déjà avant d'essayer quelque chose de nouveau ?"],
     [[null, "Si"], "Avez-vous un fort sens de ce qui est correct ou approprié dans une situation en fonction de ce que vous avez appris auparavant ?"],
     [[null, "Si"], "Vous sentez-vous à l'aise lorsque vous pouvez vous appuyer sur vos souvenirs pour naviguer dans de nouvelles situations ?"],
-    [[null, "Si"], "Tenez-vous à préserver les traditions ou les méthodes qui vous sont chères ?"],
+    [[null, "Si"], "Tenez-vous à préserver vos habitudes ?"],
     [[null, "Ne"], "Vous arrive-t-il de voir immédiatement plusieurs possibilités ou alternatives dans une situation donnée ?"],
     [[null, "Ne"], "Aimez-vous brainstormer ou générer des idées nouvelles et originales ?"],
     [[null, "Ne"], "Vous retrouvez-vous souvent en train de relier des idées apparemment non liées ?"],
@@ -52,7 +52,7 @@ let questions = [
     [[null, "Fi"], "Vous arrive-t-il de ressentir fortement ce qui est juste ou injuste en fonction de vos propres standards ?"],
     [[null, "Fi"], "Trouvez-vous important de rester fidèle à vous-même, même si cela entre en conflit avec l'avis des autres ?"],
     [[null, "Fi"], "Vous appuyez-vous souvent sur vos convictions personnelles pour évaluer une situation ?"],
-    [[null, "Fi"], "Avez-vous une forte préférence pour préserver votre intégrité dans vos actions quotidiennes ?"],
+    [[null, "Fi"], "Avez-vous une forte préférence pour préserver votre intégrité personnelle dans vos actions quotidiennes ?"],
     [[null, "Fi"], "Trouvez-vous que vous ressentez intensément vos émotions, mais que vous les gardez souvent pour vous-même ?"],
     [[null, "Fi"], "Vous arrive-t-il de prendre vos distances face à des situations qui contredisent vos valeurs personnelles ?"],
 ]
