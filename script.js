@@ -35,14 +35,14 @@ onload = function() {
 
     document.getElementById("questions").innerHTML = questions
     .map((q, i) => `${i + 1}) ${questions[i][1]}</br>
-        <div class="questions">
+        <div class="questions">pas d'accord 
         <input type="radio" value="${i},0" name="q${i}"/>
         <input type="radio" value="${i},1" name="q${i}"/>
         <input type="radio" value="${i},2" name="q${i}"/>
         <input type="radio" value="${i},3" name="q${i}"/>
         <input type="radio" value="${i},4" name="q${i}"/>
         <input type="radio" value="${i},5" name="q${i}"/>
-        <input type="radio" value="${i},6" name="q${i}"/>
+        <input type="radio" value="${i},6" name="q${i}"/>d'accord 
         </div>`).join("") + "</br><button>send</button>";
     
     document.querySelector("button").addEventListener("click", function() {
