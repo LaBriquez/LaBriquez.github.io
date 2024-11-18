@@ -9,7 +9,7 @@ function shuffle(array) {
     return newArray;
 }
 
-onload = function() {
+onload = function() {    
     questions = shuffle(questions);
 
     document.getElementById("questions").innerHTML = questions
