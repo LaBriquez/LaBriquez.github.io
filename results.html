@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <script>
+            onload = function() {
+                const results = JSON.parse(decodeURIComponent(new URLSearchParams(window.location.search).get('results')));
+                
+                const total = Object.values(results).reduce((p, c) => p + c);
+
+                const mbtiFunctions = {
+                    "INTP": ["Ti", "Ne", "Si", "Fe"],
+                    "ENTP": ["Ne", "Ti", "Fe", "Si"],
+                    "INFJ": ["Ni", "Fe", "Ti", "Se"],
+                    "ENFJ": ["Fe", "Ni", "Se", "Ti"],
+                    "INTJ": ["Ni", "Te", "Fi", "Se"],
+                    "ENTJ": ["Te", "Ni", "Se", "Fi"],
+                    "INFP": ["Fi", "Ne", "Si", "Te"],
+                    "ENFP": ["Ne", "Fi", "Te", "Si"],
+                    "ISFJ": ["Si", "Fe", "Ti", "Ne"],
+                    "ESFJ": ["Fe", "Si", "Ne", "Ti"],
+                    "ISTJ": ["Si", "Te", "Fi", "Ne"],
+                    "ESTJ": ["Te", "Si", "Ne", "Fi"],
+                    "ISFP": ["Fi", "Se", "Ni", "Te"],
+                    "ESFP": ["Se", "Fi", "Te", "Ni"],
+                    "ISTP": ["Ti", "Se", "Ni", "Fe"],
+                    "ESTP": ["Se", "Ti", "Fe", "Ni"]
+                };
+
+                let mbtiScores = Object.keys(mbtiFunctions).map(type => {
+                    return { type: type, score: mbtiFunctions[type].reduce((acc, func, index) => {
+                        return acc + (results[func] * (1.0 / (index + 1.0)));
+                    }, 0)};
+                });
+                
+                const [fMBTI, sMBTI, tMBTI] = mbtiScores.sort((a, b) => b.score - a.score).slice(0, 3);
+
+                document.body.innerHTML += "<table><tbody>" + Object.keys(results)
+                .map(v => `<tr><td width="5%" class="type">${v}</td><td>
+                    <div class="mbtiValue" style="width: ${(results[v] / total) * 100}%;">${results[v]}</div></td></tr>`)
+                .join("") + "</table></tbody>" + `</br><div id="result">MBTIs: ${fMBTI.type}</br>possibles : ${sMBTI.type}, ${tMBTI.type}</div>`;
+            }
+        </script>
+        <title>Document</title>
+    </head>
+    <body>
+    </body>
+</html>
