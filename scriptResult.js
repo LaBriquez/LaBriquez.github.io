@@ -32,7 +32,7 @@ onload = function() {
         "Ne": "ENXP", "Ni": "INXJ", "Se": "ESXP", "Si": "ISXJ"
     };
 
-    const maxVal = Object.entries(results).sort((a, b) => b[0] - a[0])[0][0];
+    const maxVal = Object.entries(results).sort((a, b) => b[1] - a[1])[0][0];
 
     let mbti = MBTIs[maxVal].replace("X", results[SeFs[maxVal][0]] > results[SeFs[maxVal][1]]? SeFs[maxVal][0][0] : SeFs[maxVal][1][0]);
 
