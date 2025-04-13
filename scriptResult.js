@@ -1,8 +1,4 @@
 onload = function() {
-    const results = JSON.parse(decodeURIComponent(new URLSearchParams(window.location.search).get('results')));
-    
-    const total = Object.values(results).reduce((p, c) => p + c);
-
     const mbtiFunctions = {
         "INTP": ["Ti", "Ne", "Si", "Fe"],
         "ENTP": ["Ne", "Ti", "Fe", "Si"],
@@ -22,40 +18,25 @@ onload = function() {
         "ESTP": ["Se", "Ti", "Fe", "Ni"]
     };
 
-    const acti = {"Si": 0.5, "Se": 0.2, "Ni": 0.8, "Ne": 0.3};
-    const judg = {"Ti": 0.5, "Te": 0.2, "Fi": 0.8, "Fe": 0.3};
+    const results = JSON.parse(decodeURIComponent(new URLSearchParams(window.location.search).get('results')));
+    
+    const total = Object.values(results).reduce((p, c) => p + c);
 
-    const activations = Object.entries(results).filter(value => acti[value[0]]);
-    const judgement = Object.entries(results).filter(value => judg[value[0]]);
+    const SeFs = {
+        "Ti": ["Ne", "Se"], "Ne": ["Ti", "Fi"], "Si": ["Fe", "Te"], "Fe": ["Ni", "Si"],
+        "Te": ["Ni", "Si"], "Ni": ["Fe", "Te"], "Se": ["Ti", "Fi"], "Fi": ["Ne", "Se"]
+    };
 
-    const maxActi = activations.reduce((m, c) => c[1] > m[1]? c : m);
-    const maxJudg = judgement.reduce((m, c) => c[1] > m[1]? c : m);
+    const MBTIs = {
+        "Ti": "IXTP", "Te": "EXTJ", "Fe": "EXFJ", "Fi": "IXFP",
+        "Ne": "ENXP", "Ni": "INXJ", "Se": "ESXP", "Si": "ISXJ"
+    };
 
-    const maxMbti = maxActi[1] > maxJudg[1]? maxActi : maxJudg;
+    const maxVal = Object.entries(results).sort((a, b) => b[0] - a[0])[0][0];
 
-    let first, second;
+    let mbti = MBTIs[maxVal].replace("X", results[SeFs[maxVal][0]] > results[SeFs[maxVal][1]]? SeFs[maxVal][0][0] : SeFs[maxVal][1][0]);
 
-    if (maxActi[1] > maxJudg[1]) {
-        const secondary = judgement.filter(m => m[0].charAt(1) != maxJudg[0].charAt(1));
-        
-        first = maxActi[0];
-        second = secondary.reduce((m, c) => c[1] > m[1]? c : m)[0];
-    } else {
-        const secondary = activations.filter(m => m[0].charAt(1) != maxJudg[0].charAt(1));
-        
-        first = maxJudg[0];
-        second = secondary.reduce((m, c) => c[1] > m[1]? c : m)[0];
-    }
-
-    let fMBTI;
-
-    for (const [mbti, functions] of Object.entries(mbtiFunctions)) {
-        if (functions[0] === first && functions[1] === second) {
-            fMBTI = mbti;
-            delete mbtiFunctions[mbti]; // Remove the MBTI type from the object
-            break; // Exit loop once the match is found
-        }
-    }
+    delete mbtiFunctions[mbti];
 
     let mbtiScores = Object.keys(mbtiFunctions).map(type => {
         return { type: type, score: mbtiFunctions[type].reduce((acc, func, index) => {
@@ -68,5 +49,5 @@ onload = function() {
     document.body.innerHTML += "<table><tbody>" + Object.keys(results)
     .map(v => `<tr><td width="5%" class="type">${v}</td><td>
         <div class="mbtiValue" style="width: ${(results[v] / total) * 100}%;">${results[v]}</div></td></tr>`)
-    .join("") + "</table></tbody>" + `</br><div id="result">MBTIs: ${fMBTI}</br>possibles : ${sMBTI.type}, ${tMBTI.type}</div>`;
+    .join("") + "</table></tbody>" + `</br><div id="result">MBTIs: ${mbti}</br>possibles : ${sMBTI.type}, ${tMBTI.type}</div>`;
 }
