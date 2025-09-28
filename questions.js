@@ -14,11 +14,11 @@ let questions = [
     {type: "Se", question: `Lorsque vous êtes inactif pendant un certain temps, est-ce que vous ressentez un besoin presque physique de vous lancer dans une action, même simple ?`},
     {type: "Se", question: `Est-ce que votre humeur est souvent influencée par le "rythme" de votre journée (périodes calmes vs périodes d'activité intense) ?`},
     {type: "Se", question: `Pour vous, une invitation a une activité est elle satisfaisante si une action concrète, pas forcément prévue, est réalisée?`},
-    {type: "Se", question: `Est-ce que vous pensez souvent en termes de "prochain mouvement" ou de "prochaine étape" dans la séquence d'actions en cours ?`},
+    {type: "Se", question: `êtes vous concentrer sur l’instant présent plutot que sur le futur ou sur le passé`},
     {type: "Se", question: `Lorsque vous décrivez une expérience, est-ce que vous avez tendance à raconter ce qui s'est passé comme une séquence d'événements et d'actions ?`},
     {type: "Se", question: `Est-ce que vous êtes particulièrement attentif aux feedbacks immédiats de votre environnement (comme un score dans un jeu, la réaction physique d'une personne) ?`},
     {type: "Se", question: `Est-ce que vous préférez les loisirs qui impliquent une participation active (sport, jeux vidéo, bricolage) à ceux qui sont purement contemplatifs ?`},
-    {type: "Se", question: `Trouvez-vous que le temps passe plus vite lorsque vous êtes pleinement engagé dans une activité qui vous passionne ?`},
+    {type: "Se", question: `Pour vous, le temps est-il souvent perçu comme une série d' "occasions à saisir" dans l'instant présent ?`},
     {type: "Se", question: `Est-ce que vous avez le sentiment de mieux connaître les gens après avoir partagé une activité avec eux, plutôt qu'après une longue discussion ?`},
 
     {type: "Ne", question: `Est-ce que votre esprit fonctionne naturellement par associations d'idées, une pensée en amenant une autre de manière parfois imprévisible ?`},
@@ -72,4 +72,5 @@ let questions = [
     {type: "Fi", question: "Trouvez-vous que vous ressentez intensément vos émotions, mais que vous les gardez souvent pour vous-même ?"},
     {type: "Fi", question: "Vous arrive-t-il de prendre vos distances face à des situations qui contredisent vos valeurs personnelles ?"},
 ]
+
 
