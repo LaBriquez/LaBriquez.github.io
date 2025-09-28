@@ -5,7 +5,7 @@ let questions = [
     {type: "Si", question: `Pour vous, une idée est-elle "solide" seulement si elle s'appuie sur des données observables et des preuves concrètes ?`},
     {type: "Si", question: `Est-ce que vous remarquez et mémorisez facilement les petits détails que les autres pourraient négliger (comme un changement dans une pièce, une coquille dans un texte) ?`},
     {type: "Si", question: `Lorsque vous apprenez, est-ce que vous retenez mieux l'information en la classant dans des catégories bien définies et selon des règles claires ?`},
-    {type: "Si", question: `Est-ce que vous accordez une grande importance à la exactitude des mots et à la précision des définitions dans une discussion ?`},
+    {type: "Si", question: `Est-ce que vous accordez une grande importance à l'exactitude des mots et à la précision des définitions dans une discussion ?`},
     {type: "Si", question: `Pour évaluer la fiabilité d'une personne, est-ce que vous observez sa constance dans les faits et son respect des engagements pris ?`},
     {type: "Si", question: `Est-ce que vous préférez les consignes et les objectifs clairement énoncés, sans place pour l'ambiguïté ?`},
     {type: "Si", question: `Est-ce que vous avez l'impression que le monde est plus compréhensible lorsqu'on le décompose en éléments simples et vérifiables ?`},
@@ -13,7 +13,7 @@ let questions = [
     {type: "Se", question: `Est-ce que vous comprenez et mémorisez mieux les choses en les faisant ou en les expérimentant directement, plutôt qu'en les étudiant de manière théorique ?`},
     {type: "Se", question: `Lorsque vous êtes inactif pendant un certain temps, est-ce que vous ressentez un besoin presque physique de vous lancer dans une action, même simple ?`},
     {type: "Se", question: `Est-ce que votre humeur est souvent influencée par le "rythme" de votre journée (périodes calmes vs périodes d'activité intense) ?`},
-    {type: "Se", question: `Pour vous, une interaction est-elle réussie lorsqu'elle débouche sur une action concrète ou un projet commun à réaliser ?`},
+    {type: "Se", question: `Pour vous, une invitation a une activité est elle satisfaisante si une action concrète, pas forcément prévue, est réalisée?`},
     {type: "Se", question: `Est-ce que vous pensez souvent en termes de "prochain mouvement" ou de "prochaine étape" dans la séquence d'actions en cours ?`},
     {type: "Se", question: `Lorsque vous décrivez une expérience, est-ce que vous avez tendance à raconter ce qui s'est passé comme une séquence d'événements et d'actions ?`},
     {type: "Se", question: `Est-ce que vous êtes particulièrement attentif aux feedbacks immédiats de votre environnement (comme un score dans un jeu, la réaction physique d'une personne) ?`},
@@ -72,3 +72,4 @@ let questions = [
     {type: "Fi", question: "Trouvez-vous que vous ressentez intensément vos émotions, mais que vous les gardez souvent pour vous-même ?"},
     {type: "Fi", question: "Vous arrive-t-il de prendre vos distances face à des situations qui contredisent vos valeurs personnelles ?"},
 ]
+
