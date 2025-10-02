@@ -68,10 +68,10 @@ let questions = [
     {type: 'Fe', question: `Est-ce que vous évaluez souvent la qualité de votre journée en fonction de la nature de vos interactions avec les autres ?`},
     {type: 'Fe', question: `Lorsque vous entrez dans une pièce, est-ce que vous scannez naturellement l'ambiance et les dynamiques émotionnelles entre les personnes présentes ?`},
     {type: 'Fe', question: `Est-ce qu'un désaccord vous semble surtout être une rupture dans la connexion émotionnelle qu'il faut réparer ?`},
-    {type: 'Fe', question: `Pour prendre une décision importante, est-ce que votre critère principal est l'impact qu'elle aura sur vos relations proches ?`},
+    {type: 'Fe', question: `Pour prendre une décision importante, est-ce que votre critère principal est l'impact émotionnel qu'elle aura sur vos relations proches ?`},
     {type: 'Fe', question: `Est-ce que vous avez l'impression de "ressentir" littéralement les émotions des personnes qui vous entourent, comme si elles étaient contagieuses ?`},
     {type: 'Fe', question: `Lors d'une conversation, êtes-vous plus attentif à ce que la personne ressent qu'à ce qu'elle dit littéralement ?`},
-    {type: 'Fe', question: `Est-ce que vous passez beaucoup de temps à analyser et à comprendre les tenants et aboutissants de vos relations ?`},
+    {type: 'Fe', question: `Est-ce que vous passez beaucoup de temps à vous préoccuper et à essayer de comprendre les émotions des autres ?`},
     {type: 'Fe', question: `Trouvez-vous que le fait d'être en harmonie avec votre entourage est un besoin aussi fondamental que de manger ou de dormir ?`},
     {type: 'Fe', question: `Est-ce que vous avez tendance à prendre personnellement les tensions ou les mauvaises ambiances, même lorsqu'elles ne vous concernent pas directement ?`},
     {type: 'Fe', question: `Avez-vous le sentiment que le sens de la vie se trouve principalement dans la richesse et l'authenticité des liens que l'on tisse avec les autres ?`},
@@ -87,3 +87,4 @@ let questions = [
     {type: 'Fi', question: `Lorsque vous lisez une histoire ou regardez un film, est-ce que vous êtes naturellement attiré par les dilemmes moraux et les conflits de valeurs des personnages ?`},
     {type: 'Fi', question: `Avez-vous le sentiment que votre identité est largement définie par les valeurs auxquelles vous choisissez de rester fidèle, même dans l'adversité ?`},
 ]
+
