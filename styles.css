@@ -102,7 +102,7 @@ table {
 tr {
     margin: 0;
     padding: 0;
-    background-color: #920505;
+    background-color: #6a6a6a;
 }
 td {
     margin: 0;
@@ -121,4 +121,5 @@ td {
     font-weight: 900;
     font-style: normal;
     font-size: 5vh;
+
 }
