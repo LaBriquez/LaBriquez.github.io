@@ -27,6 +27,11 @@ onload = function() {
         "Te": ["Ni", "Si"], "Ni": ["Fe", "Te"], "Se": ["Ti", "Fi"], "Fi": ["Ne", "Se"]
     };
 
+    const colors = {
+        "Ti": "#ffb900", "Ne": "#523fffff", "Si": "#00c3ffff", "Fe": "#046d00ff",
+        "Te": "#ff1f1f", "Ni": "#720063ff", "Se": "#ac2a00", "Fi": "#ffffff"
+    };
+
     const MBTIs = {
         "Ti": "IXTP", "Te": "EXTJ", "Fe": "EXFJ", "Fi": "IXFP",
         "Ne": "ENXP", "Ni": "INXJ", "Se": "ESXP", "Si": "ISXJ"
@@ -48,6 +53,6 @@ onload = function() {
 
     document.body.innerHTML += "<table><tbody>" + Object.keys(results)
     .map(v => `<tr><td width="5%" class="type">${v}</td><td>
-        <div class="mbtiValue" style="width: ${(results[v] / total) * 100}%;">${results[v]}</div></td></tr>`)
+        <div style="width: ${(results[v] / total) * 100}%;background-color: ${colors[v]};">${results[v]}</div></td></tr>`)
     .join("") + "</table></tbody>" + `</br><div id="result">MBTIs: ${mbti}</br>possibles : ${sMBTI.type}, ${tMBTI.type}</div>`;
 }
