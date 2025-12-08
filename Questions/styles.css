@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 179, 250);
+    /*background: url('BG.png');
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+.bgQuestion {
+    border: solid;
+    border-radius: 4vw;
+    background-color: #0de6c5;
+}
+.parent {
+    text-align: center;
+}
+.child {
+    margin: 0 auto;
+}
+input[type="radio"] {
+    display: none;
+}
+.custom-radio span {
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    border: 0.2em solid rgb(122, 0, 223);
+    border-radius: 50%;
+    background: lightgray;
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+}
+input[type="radio"]:checked + span::before {
+    content: '';
+    display: block;
+    width: 2vw;
+    height: 2vw;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom-radio:nth-of-type(1) span {
+    background: rgb(255, 0, 0);
+}
+.custom-radio:nth-of-type(2) span {
+    background: rgb(212, 0, 42);
+}
+.custom-radio:nth-of-type(3) span {
+    background: rgb(170, 0, 85);
+}
+.custom-radio:nth-of-type(4) span {
+    background: rgb(128, 0, 128);
+}
+.custom-radio:nth-of-type(5) span {
+    background: rgb(85, 0, 170);
+}
+.custom-radio:nth-of-type(6) span {
+    background: rgb(42, 0, 212);
+}
+.custom-radio:nth-of-type(7) span {
+    background: rgb(0, 0, 255);
+}
+input[type="radio"]:checked + span {
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.theQuestion {
+    font-size: 1.5vw;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+button {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4vw;
+    border: solid;
+    border-radius: 4vw;
+    background-color: #00bd3f;
+}
+button:hover {
+    background-color: #c54310;
+}
+table {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vh;
+    border: solid;
+    border-radius: 1.2vw;
+    width: 90vw;
+    overflow: hidden;
+}
+tr {
+    margin: 0;
+    padding: 0;
+    background-color: #6a6a6a;
+}
+td {
+    margin: 0;
+    padding: 0;
+    border: solid;
+}
+.type {
+    background-color: #0386dd;
+}
+.mbtiValue {
+    background-color: #009940;
+}
+#result {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vh;
+
+}
