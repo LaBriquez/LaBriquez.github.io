@@ -51,7 +51,7 @@ onload = function() {
 
     const [sMBTI, tMBTI] = mbtiScores.sort((a, b) => b.score - a.score).slice(0, 3);
 
-    document.getElementById("images").innerHTML += Array.from(`${maxVal[0]}${second}${imgsValues[maxVal[0]]}${imgsValues[second]}`, l => `<img src="${l}.jpg">`);
+    document.getElementById("images").innerHTML += Array.from(`${maxVal[0]}${second}${imgsValues[second]}${imgsValues[maxVal[0]]}`, l => `<img src="${l}.jpg">`);
 
     document.getElementById("result").innerHTML += "<table><tbody>" + Object.keys(results)
     .map(v => `<tr><td width="5%" class="type">${v}</td><td width="4%" class="type">${results[v][0] + results[v][1]}</td><td>
@@ -101,3 +101,4 @@ onload = function() {
         <div style="width: 10%;background-color: #008f30ff;">10</div><div style="width: 10%;background-color: #8f0000ff;">10</div></td></tr>`) //<div style="width: ${(results[v] / total) * 100}%;background-color: #008f30ff;">${results[v]}</div></td></tr>`)
     .join("") + "</table></tbody>" + `</br><div id="result">MBTIs: ${mbti}</br>possibles : ${sMBTI.type}, ${tMBTI.type}</div>`;
 }*/
+
